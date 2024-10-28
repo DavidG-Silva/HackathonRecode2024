@@ -14,7 +14,7 @@ function consultarLocalidade(evento) {
         
     } else if (cep.value == "80000-200" | cep.value == '2') {
         containerConsultaCep.innerHTML = `
-        <span>Você não está em uma área de risco imediato.<br> Esteja antento aos abrigos abaixo:</span>
+        <span>Você não está em uma área de risco imediato.<br> Esteja atento aos abrigos abaixo:</span>
         <img width= 200px src='./images/abrigos.png'>
         <a href="index.html">Nova consulta</a>
         `
